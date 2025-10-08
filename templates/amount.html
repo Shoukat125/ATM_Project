@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATM - Enter Amount</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>💵 Enter Withdrawal Amount</h2>
+    <form method="POST">
+      <input type="number" name="amount" placeholder="Enter amount" required>
+      <br>
+      <button type="submit">Withdraw</button>
+    </form>
+  </div>
+</body>
+</html>
